@@ -1,0 +1,27 @@
+1. git branch
+ Quản lý các nhánh (branches) trong Git. Nhánh là một phần riêng biệt của dự án, cho phép bạn làm việc trên một phần tính năng hoặc sửa lỗi mà không ảnh hưởng đến nhánh chính
+Xem tat ca cac nhanh
+git branch
+
+tao 1 nhanh moi
+git branch <ten nhanh>
+
+xoa 1 nhanh
+git branch -d <ten nhanh>
+
+2. git merge
+Kết hợp thay đổi từ một nhánh khác vào nhánh hiện tại. Ví dụ, bạn có thể làm việc trên một nhánh phát triển (feature) và sau đó hợp nhất (merge) nó với nhánh chính khi hoàn thành.
+Merge nhanh<ten nhanh> vao nhanh hien tai
+git merge <ten nhanh>
+
+ giai quyet xung dot
+git commit
+
+3. git checkout
+ Chuyển đổi giữa các nhánh hoặc quay lại một commit cụ thể. Bạn có thể sử dụng nó để kiểm tra (checkout) một nhánh hoặc phiên bản trước của dự án.
+Chuyen sang 1 nhanh khac
+git checkout <ten nhanh>
+Tao va chuyen ngay sang nhanh moi
+git checkout -b <ten nhanh moi>
+Checkout mot commit cu the
+git checkout <commit id>
